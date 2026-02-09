@@ -39,7 +39,7 @@ Prevents bugs where users enter lowercase coupon codes and the system rejects va
 ## CI Pipeline (if implemented)
 - Did CI pass successfully? Yes
 - GitHub Actions Run URL:
-https://github.com/deepakpathik/jest-workshop/actions/runs/21825446190/job/62969113567
+https://github.com/deepakpathik/jest-workshop/actions/workflows/node-ci.yml
 ---
 
 ## Reflection (1–2 lines)

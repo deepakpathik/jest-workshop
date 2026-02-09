@@ -16,7 +16,7 @@ describe("calculateFinalAmount", () => {
     expect(() => calculateFinalAmount(-10, "SAVE10")).toThrow("Invalid subtotal")
   })
   test("coupon codes should be case-insensitive", () => {
-    const result = calculateFinalAmount(500, "save10");
+    const result = calculateFinalAmount(500, "save10")
     expect(result).toBe(450);
-  });
+  })
 })
