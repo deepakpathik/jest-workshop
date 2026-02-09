@@ -11,29 +11,29 @@
 
 List each test you wrote and briefly explain **what bug or regression it prevents**.
 
-### 1. Test Name:
+### 1. Test Name: No coupon with auto discount
 **What it protects against:**  
-
+Ensures the 5% automatic discount for orders ≥1000 is not accidentally removed or changed.
 ---
 
-### 2. Test Name:
+### 2. Test Name: SAVE10 coupon applied
 **What it protects against:**  
-
+Prevents regression where the 10% coupon logic or max-discount calculation breaks.
 ---
 
-### 3. Test Name:
+### 3. Test Name: FLAT50 boundary case
 **What it protects against:**  
-
+Ensures totals never go negative when discount is larger than subtotal.
 ---
 
-### 4. Test Name:
+### 4. Test Name: Invalid subtotal throws
 **What it protects against:**  
-
+Stops invalid inputs (negative numbers, NaN, wrong types) from silently producing wrong billing.
 ---
 
-### 5. Test Name:
+### 5. Test Name: Case-insensitive coupon
 **What it protects against:**  
-
+Prevents bugs where users enter lowercase coupon codes and the system rejects valid coupons.
 ---
 
 ## CI Pipeline (if implemented)
