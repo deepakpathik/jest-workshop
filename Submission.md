@@ -44,4 +44,5 @@ https://github.com/deepakpathik/jest-workshop/actions/workflows/node-ci.yml
 
 ## Reflection (1–2 lines)
 What is **one thing** you understood better about testing or CI after this workshop?
+
 I understood how automated tests protect business logic from breaking and how CI ensures code is validated on every push without manual checking.
