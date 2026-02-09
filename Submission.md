@@ -37,11 +37,11 @@ Prevents bugs where users enter lowercase coupon codes and the system rejects va
 ---
 
 ## CI Pipeline (if implemented)
-- Did CI pass successfully? (Yes / No)
+- Did CI pass successfully? Yes
 - GitHub Actions Run URL:
-
+https://github.com/deepakpathik/jest-workshop/actions/runs/21825446190/job/62969113567
 ---
 
 ## Reflection (1–2 lines)
 What is **one thing** you understood better about testing or CI after this workshop?
-
+I understood how automated tests protect business logic from breaking and how CI ensures code is validated on every push without manual checking.
